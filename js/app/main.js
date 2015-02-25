@@ -1,5 +1,9 @@
 angular.module('app', [])
     .controller('FirstCtrl', function(){
         var first = this;
-        first.greeting = "First";
+        first.data = "First"
+    })
+    .controller("SecondCtrl", function(){
+        var second = this;
+        second.data = "Second"
     });
